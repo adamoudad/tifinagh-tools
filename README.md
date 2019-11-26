@@ -1,10 +1,8 @@
 # Tifinagh to latin transliteration #
 
-Transliterator for ⵜⵉⴼⵉⵏⴰⵖ ([tifinagh](https://en.wikipedia.org/wiki/Tifinagh)) to latin alphabet.
+Set of tools for transliteration of ⵜⵉⴼⵉⵏⴰⵖ ([tifinagh](https://en.wikipedia.org/wiki/Tifinagh)) into latin alphabet.
 
-Note that it transliterates for ⵄ (corresponding in arab to ع) to "3" (character for number three).
-
-This tool is developped for the purpose of the website <http://imiksimik.toile-libre.org/>.
+This set of tools is developped for the purpose of the website <http://imiksimik.legtux.org/>.
 
 ## Javascript script ##
 The `.js` file is a javascript code for parsing the whole file searching for text written in tifinagh, and transliterate it to latin alphabet
@@ -23,7 +21,10 @@ Which will produce
 <span data-toggle="tooltip" title="awal">ⴰⵡⴰⵍ</span>
 ```
 
-"ⴰⵡⴰⵍ" will therefore be converted to "awal" and placed inside a tooltip.
+"ⴰⵡⴰⵍ" will therefore be converted to "awal" and placed inside a tooltip. The markup integrates in a Bootstrapv4 theme.
+
+## Notes ##
+The letter ⵄ (corresponding in arab to ع) in tifinagh is transliterated into "3" (character for number three).
 
 ## TODO ##
 - Split jekyll plugin into a transliterator and formatters
