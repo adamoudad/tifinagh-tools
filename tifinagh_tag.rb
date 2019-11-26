@@ -1,5 +1,9 @@
 # coding: utf-8
-# Inspired by jekyll-youtube plugin (see https://github.com/dommmel/jekyll-youtube)
+
+# Transliterator for tifinagh
+# Copyright(c) 2019 Adam Oudad <adam.oudad@gmail.com>
+# MIT Licensed
+
 require "jekyll"
 
 $tifinagh_latin = {
