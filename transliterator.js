@@ -1,6 +1,6 @@
 /*!
  * Transliterator for tifinagh
- * Copyright(c) 2017 Adam Oudad <adam.oudad@gmail.com>
+ * Copyright(c) 2018 Adam Oudad <adam.oudad@gmail.com>
  * MIT Licensed
  */
 function transliterateWord(word){
